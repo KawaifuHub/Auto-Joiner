@@ -6,7 +6,7 @@ local state = getgenv().RexzyJoinerState
 local function notify(text)
     pcall(function()
         game.StarterGui:SetCore("SendNotification", {
-            Title = "Rexzy System",
+            Title = "KawaiFu System",
             Text = text,
             Duration = 3
         })
@@ -410,7 +410,7 @@ function loadMainScript()
         TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
         TitleLabel.Font = Enum.Font.GothamBlack
         TitleLabel.TextSize = 36
-        TitleLabel.Text = "Rexzy Joiner"
+        TitleLabel.Text = "KawaiFu Joiner"
         TitleLabel.Parent = BlackFrame
         
         local DiscordLabel = Instance.new("TextLabel")
@@ -420,7 +420,7 @@ function loadMainScript()
         DiscordLabel.TextColor3 = Color3.fromRGB(200, 200, 255)
         DiscordLabel.Font = Enum.Font.GothamBold
         DiscordLabel.TextSize = 20
-        DiscordLabel.Text = "discord.gg/joiner"
+        DiscordLabel.Text = "discord.gg/dFEPdhP73"
         DiscordLabel.Parent = BlackFrame
         
         local CountdownLabel = Instance.new("TextLabel")
@@ -472,7 +472,7 @@ function loadMainScript()
         frame.Parent = screenGui
         
         local outline = Instance.new("TextLabel")
-        outline.Text = "1-999 joiner | discord.gg/joiner"
+        outline.Text = "1-999 joiner | discord.gg/dFEPdhP73"
         outline.Font = Enum.Font.SourceSansBold
         outline.TextSize = 26
         outline.TextColor3 = Color3.new(0, 0, 0)
